@@ -167,30 +167,18 @@ Available for a meeting on **[Dates]**.
 
 The following diagram illustrates the simplified data pipeline architecture:
 
-![Data Pipeline Architecture](images/data-pipeline-architecture-simplified.png)
+![Data Pipeline Architecture](images/data-pipeline-architecture.png)
 
 **Figure 1:** Data Pipeline Architecture  
-   > *Sources: Kenya Met (API), NASA (Satellite), TAHMO (Ground Sensors)*  
-   > ![Architecture Diagram](path/to/diagram.png){ width=80% }
-   
-graph LR  
-A[Kenya Met API] --> B(Airflow Scheduler)  
-C[NASA POWER] --> B  
-D[TAHMO Sensors] --> B  
-B --> E{Data Cleaning}  
-E --> F[TimescaleDB]  
-F --> G[TensorFlow Model]  
-G --> H[FastAPI Server]  
-H --> I[(Flutter App)]  
-H --> J[SMS/USSD Gateway]  
+   > *Sources: Kenya Met (API), NASA (Satellite), TAHMO (Ground Sensors)*
 
 ***A simplified version:***
 
-graph TB  
-A[Data Sources] --> B(Kenya Server)  
-B --> C[AI Model]  
-C --> D[Mobile App]  
-D --> E{Farmer}  
+## Data Pipeline Architecture
+
+The following is a simplified view of the data pipeline used in the AI-powered weather app:
+
+![Data Pipeline Architecture](images/data-pipeline-architecture-simplified.png)
 
 **Key Components:**
 
