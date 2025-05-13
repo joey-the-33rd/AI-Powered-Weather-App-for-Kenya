@@ -176,7 +176,10 @@ The following diagram illustrates the simplified data pipeline architecture:
 
 ## Data Pipeline Architecture
 
-The following is a simplified view of the data pipeline used in the AI-powered weather app:
+Here’s a simplified form of the AI-powered weather app's data pipeline:
+
+![Data Pipeline Architecture](images/data-pipeline-architecture-simplified-form.png)
+
 
 **Key Components:**
 
