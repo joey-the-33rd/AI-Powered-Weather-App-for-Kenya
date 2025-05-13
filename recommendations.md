@@ -163,6 +163,14 @@ Available for a meeting on **[Dates]**.
 
 ### **Appendix C: Data Pipeline Architecture Diagram**
 
+![DeepSeek Chat Session](blob:https://chat.deepseek.com/6145e3fc-635e-493d-b111-d23ad3ddda7f)
+
+<!-- INSERT_BLOB_IMAGE_HERE -->
+
+**Figure 1:** Data Pipeline Architecture  
+   > *Sources: Kenya Met (API), NASA (Satellite), TAHMO (Ground Sensors)*  
+   > ![Architecture Diagram](path/to/diagram.png){ width=80% }
+   
 graph LR  
 A[Kenya Met API] --> B(Airflow Scheduler)  
 C[NASA POWER] --> B  
