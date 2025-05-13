@@ -163,9 +163,11 @@ Available for a meeting on **[Dates]**.
 
 ### **Appendix C: Data Pipeline Architecture Diagram**
 
-![DeepSeek Chat Session](blob:https://chat.deepseek.com/6145e3fc-635e-493d-b111-d23ad3ddda7f)
+## Recommendation: Data Pipeline Architecture
 
-<!-- INSERT_BLOB_IMAGE_HERE -->
+The following diagram illustrates the simplified data pipeline architecture:
+
+![Data Pipeline Architecture](images/data-pipeline-architecture-simplified.png)
 
 **Figure 1:** Data Pipeline Architecture  
    > *Sources: Kenya Met (API), NASA (Satellite), TAHMO (Ground Sensors)*  
