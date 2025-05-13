@@ -178,8 +178,6 @@ The following diagram illustrates the simplified data pipeline architecture:
 
 The following is a simplified view of the data pipeline used in the AI-powered weather app:
 
-![Data Pipeline Architecture](images/data-pipeline-architecture-simplified.png)
-
 **Key Components:**
 
 1. Ingestion: Airflow fetches data daily at 6AM EAT
