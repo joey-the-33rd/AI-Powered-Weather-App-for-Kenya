@@ -1,6 +1,6 @@
 # **Latest Optimized Tech Stack for Kenyan Weather Prediction App**  
 
-*Balancing performance, cost, and regional practicality for Kenya's unique context*
+## *Balancing performance, cost, and regional practicality for Kenya's unique context*
 
 ---
 
@@ -111,7 +111,6 @@
 ## **6. Regional Optimization**  
 
 ### **Kenya-Specific Tweaks**  
-
 1. **Offline Resilience**:  
    - SQLite forecasts cached for 7 days  
    - AWS IoT Greengrass (edge inference on Raspberry Pi hubs)  
