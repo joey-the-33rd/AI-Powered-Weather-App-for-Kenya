@@ -111,6 +111,7 @@
 ## **6. Regional Optimization**  
 
 ### **Kenya-Specific Tweaks**  
+
 1. **Offline Resilience**:  
    - SQLite forecasts cached for 7 days  
    - AWS IoT Greengrass (edge inference on Raspberry Pi hubs)  
