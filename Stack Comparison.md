@@ -52,6 +52,7 @@ Here's a detailed comparison of your proposed stack (React.js/Node.js) vs. the K
 ## Key Differentiators for Kenya
 
 ### 🌍 **Regional Advantages of Optimized Stack**
+
 1. **Mobile-First Reality**  
    - 83% of Kenyans access internet via mobile (vs 37% desktop)  
    - Flutter works on $50 Android phones common in rural areas
@@ -71,6 +72,7 @@ Here's a detailed comparison of your proposed stack (React.js/Node.js) vs. the K
 ---
 
 ### When to Choose React.js/Node.js Stack
+
 1. **If Targeting Global Users**  
    - Better for web-first audiences in US/EU
 
@@ -83,7 +85,9 @@ Here's a detailed comparison of your proposed stack (React.js/Node.js) vs. the K
 ---
 
 ## Hybrid Approach Option
-**Best of Both Worlds:**  
+
+**Best of Both Worlds:**
+
 ```mermaid
 graph LR
 A[Flutter Mobile] --> B(Node.js API Gateway)
