@@ -180,7 +180,6 @@ Here’s a simplified form of the AI-powered weather app's data pipeline:
 
 ![Data Pipeline Architecture](images/data-pipeline-architecture-simplified-form.png)
 
-
 **Key Components:**
 
 1. Ingestion: Airflow fetches data daily at 6AM EAT
